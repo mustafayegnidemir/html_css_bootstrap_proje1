@@ -83,3 +83,16 @@
      --bs-nav-pills-link-active-bg: #6610f2;
     
 } */
+
+.breadcrumb a{
+    opacity: .9;
+    color: #fff;
+}
+
+.breadcrumb .breadcrumb-item{
+    color: #fff;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+color: #fff;
+}
